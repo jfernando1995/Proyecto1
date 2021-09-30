@@ -32,7 +32,7 @@ if opciones_inicio== "Calculos":
 		df=pd.read_excel(archivo_subida)
 		df["Nueva"]=df["NÚMEROS"]*2
 		st.write(df)
-		df2=pd.read_excel("Data_Excel\DATA.xlsx.")
+		df2=pd.read_excel("DATA.xlsx.")
 		gráfico=alt.Chart(df2).mark_line().encode(
 			x=df2["LETRAS"],y=df2["NÚMEROS"]).interactive()
 		st.altair_chart(gráfico)
