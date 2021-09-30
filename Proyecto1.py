@@ -35,6 +35,7 @@ if opciones_inicio== "Calculos":
 		gráfico=alt.Chart(df2).mark_line().encode(
 			x=df2["LETRAS"],y=df2["NÚMEROS"]).interactive()
 		st.altair_chart(gráfico)
+		st.write("Proyecto finalizado")
 
 
 		#CUANDO LOS ENCABEZADOS SON UNIDOS SE USA (.) Y [] PARA ESPECIFICAR UNA COMUNAS QUE TIENE CARACTERES 
