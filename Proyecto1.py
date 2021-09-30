@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import altair as alt
 import numpy as np
+import openpyxl 
 st.title("Mi primer aplicativo")
 st.sidebar.title("Parametros")
 opciones_inicio=st.sidebar.radio("seleccione una opción",["Inicio","Datos","Calculos"])
